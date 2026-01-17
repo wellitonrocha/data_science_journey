@@ -31,7 +31,7 @@ Aprender os comandos básicos de Git, configurar o repositório no GitHub e orga
 - Enviei a branch para o GitHub com `git push -u origin semana1-dia-14jan`.  
 
 **15/01/2026**  
-- Fiz merge da branch `semana1-dia-14jan` na branch principal (`master`) utilizando `git merge`.  
+- Fiz merge da branch `semana1-dia-14jan` na branch principal (`main`) utilizando `git merge`.  
 - Testei o comando `git pull` para atualizar repositório local com alterações remotas.  
 - Explorei o comando `git log` para visualizar histórico de commits e entender melhor a rastreabilidade.  
 - Pratiquei boas práticas de mensagens de commit, utilizando descrições claras e objetivas.  
@@ -39,26 +39,42 @@ Aprender os comandos básicos de Git, configurar o repositório no GitHub e orga
 - Documentei reflexões sobre a importância de versionamento e organização no desenvolvimento.  
 - Atualizei o diário com todas as atividades realizadas até o momento.  
 
-**16/01/2026** 
-- Revisei todos os comandos básicos aprendidos até agora para fixação. 
-- Testei o comando `git clone` em outro diretório para simular colaboração e verificar funcionamento do repositório remoto. 
-- Criei uma nova branch `semana1-dia-16jan` para registrar atividades do dia. 
-- Experimentei o comando `git stash` para salvar alterações temporárias e restaurá-las com `git stash pop`. 
-- Testei o comando `git revert <hash>` para desfazer um commit específico sem perder histórico. 
-- Documentei no diário os testes e resultados obtidos com `git stash` e `git revert`. 
-- Realizei commit das atividades do dia com mensagem clara e objetiva. 
-- Enviei a branch para o GitHub com `git push -u origin semana1-dia-16jan`.
+**16/01/2026**  
+- Revisei todos os comandos básicos aprendidos até agora para fixação.  
+- Testei o comando `git clone` em outro diretório para simular colaboração e verificar funcionamento do repositório remoto.  
+- Criei uma nova branch `semana1-dia-16jan` para registrar atividades do dia.  
+- Experimentei o comando `git stash` para salvar alterações temporárias e restaurá-las com `git stash pop`.  
+- Testei o comando `git revert <hash>` para desfazer um commit específico sem perder histórico.  
+- Documentei no diário os testes e resultados obtidos com `git stash` e `git revert`.  
+- Realizei commit das atividades do dia com mensagem clara e objetiva:  
+  ```bash
+  git commit -m "Registro das atividades do dia 16/01: testes com stash, revert e clone"  
+- Enviei a branch para o GitHub com `git push -u origin semana1-dia-16jan`.  
+
+**17/01/2026**  
+- Revisei todo o fluxo de trabalho com Git e GitHub consolidando os aprendizados da semana.  
+- Criei um Pull Request da branch `semana1-dia-16jan` para a branch principal (`main`) e realizei o merge.  
+- Testei novamente o fluxo completo: atualização da branch principal, criação de branch, commit, push e merge.  
+- Organizei os arquivos e finalizei a documentação da Semana 1.  
+- Criei uma tag final (`git tag v1.1-semana1`) para marcar a conclusão da semana.  
+- Atualizei o repositório remoto com `git push origin --tags`.  
+- Preparei e publiquei um post estratégico no LinkedIn compartilhando os aprendizados da Semana 1, destacando:  
+  - Importância do versionamento para rastreabilidade e segurança.  
+  - Uso de branches e Pull Requests para organização profissional.  
+  - Documentação contínua como ferramenta de aprendizado e portfólio.  
+  - Reflexão sobre como Git/GitHub são fundamentais para qualquer jornada em ciência de dados.  
 
 ---
 
-## 📈 Reflexões da Semana (parciais até 15/01)  
-- Branches permitem trabalhar de forma isolada e organizada, sem comprometer a branch principal.  
-- O uso de `.gitignore` é essencial para manter o repositório limpo e evitar arquivos desnecessários.  
-- Tags ajudam a marcar versões concluídas e facilitam o acompanhamento da evolução do projeto.  
-- A prática diária com comandos básicos fortalece a confiança no uso do Git.  
+## 📈 Reflexões da Semana – Conclusão
+- Consolidar os fundamentos de Git/GitHub foi essencial para estruturar a jornada de 12 semanas.  
+- O aprendizado prático com comandos básicos e intermediários trouxe confiança para lidar com versionamento em projetos reais.  
+- A documentação diária fortaleceu o hábito de registrar aprendizados e criar um portfólio sólido.  
+- Compartilhar reflexões no LinkedIn amplia networking e reforça a evolução profissional.  
+- Encerrar a semana com tags e Pull Requests garante organização e marca o progresso alcançado.  
 
-## 📈 Reflexões da Semana (parciais até 16/01) 
-- O comando `git clone` é essencial para simular colaboração e iniciar projetos a partir de repositórios existentes. 
-- `git stash` é útil para guardar alterações temporárias sem precisar commitar imediatamente. 
-- `git revert` permite desfazer mudanças de forma segura, mantendo o histórico intacto. 
-- A prática diária está consolidando não apenas os comandos básicos, mas também intermediários, preparando para fluxos de trabalho mais complexos.
+---
+
+## ✅ Encerramento da Semana 1
+Semana concluída com sucesso! 🚀  
+Agora o próximo passo é iniciar a **Semana 2** com prática de SQL utilizando o dataset **Northwind**, mantendo o mesmo ritmo de registro e documentação.
