@@ -36,12 +36,12 @@ FROM order_details;
 -- 2. CONTAGEM DE REGISTROS
 -----------------------------------------------------------
 
--- Total de pedidos = 830
+-- Total de pedidos
 SELECT
     COUNT(*) AS total_orders
 FROM orders;
 
--- Total de itens vendidos (linhas da order_details = 2155)
+-- Total de itens vendidos (linhas da order_details)
 SELECT
     COUNT(*) AS total_order_items
 FROM order_details;
@@ -50,7 +50,7 @@ FROM order_details;
 -- 3. PERÍODO DOS DADOS
 -----------------------------------------------------------
 
--- Data inicial(1996-07-04) e final(1998-05-06) dos pedidos
+-- Data inicial e final dos pedidos
 SELECT
     MIN(order_date) AS data_inicial, 
     MAX(order_date) AS data_final
@@ -89,15 +89,95 @@ ORDER BY quantidade_itens DESC;
 -- 6. VERIFICAÇÃO DE POSSÍVEIS PROBLEMAS DE INTEGRIDADE
 -----------------------------------------------------------
 
--- Pedidos sem itens (zero registros)
+-- Pedidos sem itens (Esperado zero registros)
 SELECT
     o.order_id
 FROM orders o
 LEFT JOIN order_details od
     ON o.order_id = od.order_id
 WHERE od.order_id IS NULL;
+-----------------------------------------------------------
+
+/*
+===========================================================
+SEMANA 2 – DIA 2
+Tópicos: SELECT, WHERE, ORDER BY
+Objetivo: Criar consultas básicas com intenção analítica
+===========================================================
+*/
 
 -----------------------------------------------------------
--- FIM DO DIA 1
--- Próximo passo: SELECT, WHERE e ORDER BY (Dia 2)
+-- 7. CONSULTAS BÁSICAS COM SELECT
+-----------------------------------------------------------
+
+-- Visão geral dos pedidos (colunas relevantes)
+SELECT
+    order_id,
+    customer_id,
+    order_date,
+    freight,
+    ship_country
+FROM orders;
+
+-----------------------------------------------------------
+-- 8. FILTROS COM WHERE
+-----------------------------------------------------------
+
+-- Pedidos de um cliente específico
+SELECT
+    order_id,
+    customer_id,
+    order_date,
+    freight
+FROM orders
+WHERE customer_id = 'VINET';
+
+-- Pedidos dentro de um intervalo de datas
+SELECT
+    order_id,
+    customer_id,
+    order_date,
+    freight
+FROM orders
+WHERE order_date BETWEEN '1997-01-01' AND '1997-12-31';
+
+-----------------------------------------------------------
+-- 9. ORDENAÇÃO COM ORDER BY
+-----------------------------------------------------------
+
+-- Pedidos ordenados pelo maior valor de frete
+SELECT
+    order_id,
+    customer_id,
+    order_date,
+    freight
+FROM orders
+ORDER BY freight DESC;
+
+-- Top 10 pedidos com maior valor de frete
+SELECT TOP 10
+    order_id,
+    customer_id,
+    order_date,
+    freight
+FROM orders
+ORDER BY freight DESC;
+
+-----------------------------------------------------------
+-- 10. COMBINAÇÃO: SELECT + WHERE + ORDER BY
+-----------------------------------------------------------
+
+-- Pedidos a partir de 1997 ordenados por maior frete
+SELECT
+    order_id,
+    customer_id,
+    order_date,
+    freight
+FROM orders
+WHERE order_date >= '1997-01-01'
+ORDER BY freight DESC;
+
+-----------------------------------------------------------
+-- FIM DO DIA 2
+-- Próximo passo: JOINs (INNER e LEFT)
 -----------------------------------------------------------

@@ -25,3 +25,20 @@ Aprender os fundamentos de SQL aplicados à análise de dados, utilizando o banc
 - Importação controlada de arquivos CSV via tabelas temporárias.  
 - Validação de integridade relacional com JOINs.  
 - Importância da exploração inicial para entendimento do dataset antes das análises.  
+
+---
+**20/01/2026**  
+- Pratiquei consultas básicas utilizando `SELECT`, `WHERE` e `ORDER BY`.  
+- Evitei o uso de `SELECT *`, selecionando apenas colunas relevantes para análise.  
+- Criei consultas para listar pedidos por cliente específico.  
+- Filtrei pedidos por intervalo de datas, analisando o comportamento ao longo do tempo.  
+- Ordenei pedidos pelo valor do frete para identificar os maiores custos logísticos.  
+- Combinei filtros e ordenação em consultas mais completas, já com foco analítico.  
+
+**Aprendizados do dia:**  
+- Importância de selecionar colunas com intenção analítica.  
+- Uso correto do `WHERE` para segmentar dados por cliente e período.  
+- Aplicação do `ORDER BY` como ferramenta de análise, não apenas estética.  
+- Construção de consultas SQL claras, legíveis e bem documentadas.  
+
+---
