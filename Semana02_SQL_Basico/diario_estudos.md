@@ -27,6 +27,7 @@ Aprender os fundamentos de SQL aplicados à análise de dados, utilizando o banc
 - Importância da exploração inicial para entendimento do dataset antes das análises.  
 
 ---
+
 **20/01/2026**  
 - Pratiquei consultas básicas utilizando `SELECT`, `WHERE` e `ORDER BY`.  
 - Evitei o uso de `SELECT *`, selecionando apenas colunas relevantes para análise.  
@@ -40,5 +41,20 @@ Aprender os fundamentos de SQL aplicados à análise de dados, utilizando o banc
 - Uso correto do `WHERE` para segmentar dados por cliente e período.  
 - Aplicação do `ORDER BY` como ferramenta de análise, não apenas estética.  
 - Construção de consultas SQL claras, legíveis e bem documentadas.  
+
+---
+
+**21/01/2026**  
+- Estudei e apliquei conceitos de relacionamento entre tabelas utilizando `INNER JOIN` e `LEFT JOIN`.  
+- Relacionei as tabelas `orders` e `order_details` para analisar os itens vendidos em cada pedido.  
+- Criei consultas para listar produtos vendidos por pedido, combinando dados de cabeçalho e detalhe.  
+- Realizei validações de integridade dos dados, identificando se existiam pedidos sem itens associados.  
+- Calculei a quantidade de itens por pedido, preparando a base para análises agregadas mais avançadas.  
+
+**Aprendizados do dia:**  
+- Diferença prática entre `INNER JOIN` e `LEFT JOIN` em análises relacionais.  
+- Importância do JOIN para transformar dados normalizados em informações analíticas.  
+- Uso de `LEFT JOIN` como ferramenta de auditoria e validação de qualidade dos dados.  
+- Preparação de consultas relacionais como base para métricas de negócio (volume, vendas, receita).  
 
 ---

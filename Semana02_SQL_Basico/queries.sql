@@ -178,6 +178,72 @@ WHERE order_date >= '1997-01-01'
 ORDER BY freight DESC;
 
 -----------------------------------------------------------
--- FIM DO DIA 2
--- Próximo passo: JOINs (INNER e LEFT)
+/*
+===========================================================
+SEMANA 2 – DIA 3
+Tópicos: INNER JOIN e LEFT JOIN
+Objetivo: Relacionar pedidos e itens vendidos
+===========================================================
+*/
+
+-----------------------------------------------------------
+-- 11. INNER JOIN: PEDIDOS E ITENS VENDIDOS
+-----------------------------------------------------------
+
+-- Relação entre pedidos e seus respectivos itens
+SELECT TOP 10
+    o.order_id,
+    o.order_date,
+    od.product_id,
+    od.quantity,
+    od.unit_price
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id;
+
+-----------------------------------------------------------
+-- 12. INNER JOIN COM FILTRO
+-----------------------------------------------------------
+
+-- Itens vendidos em um pedido específico
+SELECT
+    o.order_id,
+    o.order_date,
+    od.product_id,
+    od.quantity,
+    od.unit_price
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id
+WHERE o.order_id = 10248;
+
+-----------------------------------------------------------
+-- 13. LEFT JOIN: VALIDAÇÃO DE CONSISTÊNCIA
+-----------------------------------------------------------
+
+-- Verificar se existem pedidos sem itens (esperado: zero registros)
+SELECT
+    o.order_id
+FROM orders o
+LEFT JOIN order_details od
+    ON o.order_id = od.order_id
+WHERE od.order_id IS NULL;
+
+-----------------------------------------------------------
+-- 14. QUANTIDADE DE ITENS POR PEDIDO
+-----------------------------------------------------------
+
+-- Contagem de itens vendidos por pedido
+SELECT
+    o.order_id,
+    COUNT(od.product_id) AS quantidade_itens
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id
+GROUP BY o.order_id
+ORDER BY quantidade_itens DESC;
+
+-----------------------------------------------------------
+-- FIM DO DIA 3
+-- Próximo passo: Funções agregadas (COUNT, SUM, AVG, GROUP BY)
 -----------------------------------------------------------
