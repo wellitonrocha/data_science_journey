@@ -243,7 +243,174 @@ INNER JOIN order_details od
 GROUP BY o.order_id
 ORDER BY quantidade_itens DESC;
 
+/*
+===========================================================
+Exercícios práticos de fixação – JOINs
+===========================================================
+*/
+
 -----------------------------------------------------------
--- FIM DO DIA 3
--- Próximo passo: Funções agregadas (COUNT, SUM, AVG, GROUP BY)
+-- EXERCÍCIO 1
+-- Listar os 20 primeiros itens vendidos
+-----------------------------------------------------------
+
+SELECT TOP 20
+    o.order_id,
+    o.order_date,
+    od.product_id,
+    od.quantity
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id;
+
+-----------------------------------------------------------
+-- EXERCÍCIO 2
+-- Pedidos realizados a partir de 1997-01-01
+-----------------------------------------------------------
+
+SELECT
+    o.order_id,
+    o.order_date,
+    od.product_id,
+    od.unit_price
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id
+WHERE o.order_date >= '1997-01-01';
+
+-----------------------------------------------------------
+-- EXERCÍCIO 3
+-- Pedidos e itens ordenados por data
+-----------------------------------------------------------
+
+SELECT
+    o.order_id,
+    o.order_date,
+    od.product_id,
+    od.unit_price
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id
+ORDER BY o.order_date ASC;
+
+-----------------------------------------------------------
+-- EXERCÍCIO 4
+-- Pedidos com mais de 10 itens diferentes
+-----------------------------------------------------------
+
+SELECT
+    o.order_id,
+    COUNT(od.product_id) AS quantidade_itens
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id
+GROUP BY o.order_id
+HAVING COUNT(od.product_id) > 10
+ORDER BY quantidade_itens DESC;
+
+-----------------------------------------------------------
+-- EXERCÍCIO 5
+-- Pedidos com exatamente 1 item
+-----------------------------------------------------------
+
+SELECT
+    o.order_id,
+    COUNT(od.product_id) AS quantidade_itens
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id
+GROUP BY o.order_id
+HAVING COUNT(od.product_id) = 1
+ORDER BY quantidade_itens DESC;
+
+-----------------------------------------------------------
+-- EXERCÍCIO 6
+-- Pedidos feitos no mesmo dia
+-----------------------------------------------------------
+
+SELECT
+    o.order_date,
+    o.order_id,
+    od.product_id
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id
+WHERE o.order_date IN (
+    SELECT
+        order_date
+    FROM orders
+    GROUP BY order_date
+    HAVING COUNT(order_id) > 1
+)
+ORDER BY
+    o.order_date,
+    o.order_id;
+
+/*
+===========================================================
+SEMANA 2 – DIA 4
+Tópico: Funções Agregadas e Análise de Vendas
+Objetivo: Transformar dados transacionais em métricas
+===========================================================
+*/
+
+-----------------------------------------------------------
+-- 15. TOTAL DE PEDIDOS POR CLIENTE
+-----------------------------------------------------------
+
+SELECT
+    customer_id,
+    COUNT(order_id) AS total_pedidos
+FROM orders
+GROUP BY customer_id
+ORDER BY total_pedidos DESC;
+
+-----------------------------------------------------------
+-- 16. TOTAL DE ITENS VENDIDOS POR PEDIDO
+-----------------------------------------------------------
+
+SELECT
+    o.order_id,
+    SUM(od.quantity) AS total_itens
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id
+GROUP BY o.order_id
+ORDER BY total_itens DESC;
+
+-----------------------------------------------------------
+-- 17. RECEITA TOTAL POR PEDIDO
+-----------------------------------------------------------
+
+SELECT
+    o.order_id,
+    SUM(od.quantity * od.unit_price) AS receita_total
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id
+GROUP BY o.order_id
+ORDER BY receita_total DESC;
+
+-----------------------------------------------------------
+-- 18. RECEITA TOTAL POR PRODUTO
+-----------------------------------------------------------
+
+SELECT
+    od.product_id,
+    SUM(od.quantity * od.unit_price) AS receita_total
+FROM order_details od
+GROUP BY od.product_id
+ORDER BY receita_total DESC;
+
+-----------------------------------------------------------
+-- 19. MÉDIA DE DESCONTO APLICADA
+-----------------------------------------------------------
+
+SELECT
+    AVG(discount) AS media_desconto
+FROM order_details;
+
+-----------------------------------------------------------
+-- FIM DO DIA 4
+-- Próximo passo: Mini-projeto – Análise de Vendas com SQL
 -----------------------------------------------------------

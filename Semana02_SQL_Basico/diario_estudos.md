@@ -58,3 +58,18 @@ Aprender os fundamentos de SQL aplicados à análise de dados, utilizando o banc
 - Preparação de consultas relacionais como base para métricas de negócio (volume, vendas, receita).  
 
 ---
+
+**22/01/2026**  
+- Estudei e apliquei funções agregadas (`COUNT`, `SUM`, `AVG`) para análise de dados de vendas.  
+- Criei consultas para calcular o total de pedidos por cliente, identificando clientes mais recorrentes.  
+- Calculei o volume total de itens vendidos por pedido, diferenciando quantidade de itens e quantidade de produtos.  
+- Desenvolvi consultas para cálculo de receita total por pedido e por produto, utilizando agregações sobre dados transacionais.  
+- Analisei a média de desconto aplicada nos pedidos, compreendendo seu impacto no faturamento.  
+- Validei todas as consultas para evitar duplicidade de valores causada por JOINs incorretos.  
+
+**Aprendizados do dia:**  
+- Uso correto de funções agregadas para geração de métricas de negócio.  
+- Diferença entre métricas de volume (quantidade) e métricas financeiras (receita).  
+- Importância do `GROUP BY` para definir corretamente o nível de agregação da análise.  
+- Cuidados necessários ao combinar `JOIN` e agregações para evitar distorções nos resultados.  
+- Transformação de dados transacionais em informações analíticas relevantes para tomada de decisão.  
