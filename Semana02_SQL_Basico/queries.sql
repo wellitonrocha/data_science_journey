@@ -410,7 +410,52 @@ SELECT
     AVG(discount) AS media_desconto
 FROM order_details;
 
+/*
+===========================================================
+SEMANA 2 – DIA 5
+MINI-PROJETO – ANÁLISE DE VENDAS COM SQL
+Objetivo: Responder perguntas de negócio com SQL
+===========================================================
+*/
+
 -----------------------------------------------------------
--- FIM DO DIA 4
--- Próximo passo: Mini-projeto – Análise de Vendas com SQL
+-- 20. PRODUTO MAIS VENDIDO (POR QUANTIDADE)
+-----------------------------------------------------------
+
+SELECT
+    od.product_id,
+    SUM(od.quantity) AS total_vendido
+FROM order_details od
+GROUP BY od.product_id
+ORDER BY total_vendido DESC;
+
+-----------------------------------------------------------
+-- 21. CLIENTE QUE MAIS GASTOU NO PERÍODO
+-----------------------------------------------------------
+
+SELECT
+    o.customer_id,
+    SUM(od.quantity * od.unit_price) AS total_gasto
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id
+GROUP BY o.customer_id
+ORDER BY total_gasto DESC;
+
+-----------------------------------------------------------
+-- 22. FATURAMENTO POR MÊS
+-----------------------------------------------------------
+
+SELECT
+    FORMAT(o.order_date, 'yyyy-MM') AS mes,
+    SUM(od.quantity * od.unit_price) AS faturamento
+FROM orders o
+INNER JOIN order_details od
+    ON o.order_id = od.order_id
+GROUP BY FORMAT(o.order_date, 'yyyy-MM')
+ORDER BY faturamento DESC;
+
+-----------------------------------------------------------
+-- FIM DO DIA 5
+-- Semana 2 concluída – SQL Básico
 -----------------------------------------------------------

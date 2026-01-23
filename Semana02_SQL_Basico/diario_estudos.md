@@ -73,3 +73,20 @@ Aprender os fundamentos de SQL aplicados à análise de dados, utilizando o banc
 - Importância do `GROUP BY` para definir corretamente o nível de agregação da análise.  
 - Cuidados necessários ao combinar `JOIN` e agregações para evitar distorções nos resultados.  
 - Transformação de dados transacionais em informações analíticas relevantes para tomada de decisão.  
+
+---
+
+**23/01/2026**  
+- Desenvolvi o mini-projeto de Análise de Vendas utilizando SQL, consolidando os conceitos estudados ao longo da semana.  
+- Respondi perguntas de negócio relacionadas a volume de vendas, faturamento e comportamento temporal.  
+- Identifiquei o produto mais vendido com base na quantidade total comercializada.  
+- Determinei o cliente que mais gerou receita no período analisado.  
+- Analisei o faturamento mensal, identificando o mês com maior volume financeiro.  
+- Organizei e documentei as queries finais no arquivo `queries.sql`, estruturando o mini-projeto de forma clara e reutilizável.  
+
+**Aprendizados do dia:**  
+- Estruturação de análises orientadas a perguntas de negócio.  
+- Diferença entre métricas de volume e métricas financeiras na tomada de decisão.  
+- Importância da análise temporal para identificação de padrões de faturamento.  
+- Consolidação do uso de JOINs e funções agregadas em um projeto completo.  
+- Construção de um projeto SQL com padrão profissional e pronto para portfólio.  
