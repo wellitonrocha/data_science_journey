@@ -90,3 +90,47 @@ Aprender os fundamentos de SQL aplicados à análise de dados, utilizando o banc
 - Importância da análise temporal para identificação de padrões de faturamento.  
 - Consolidação do uso de JOINs e funções agregadas em um projeto completo.  
 - Construção de um projeto SQL com padrão profissional e pronto para portfólio.  
+
+---
+
+**24/01/2026**  
+- Finalizei o notebook `analise_vendas.ipynb`, documentando as principais análises realizadas em SQL com apoio de visualizações em Python.  
+- Integrei resultados reais das consultas SQL por meio de arquivos CSV, garantindo coerência entre banco de dados e análise visual.  
+- Desenvolvi análises de:
+  - Produto mais vendido
+  - Cliente com maior faturamento
+  - Evolução do faturamento mensal  
+- Estruturei conclusões analíticas e aprendizados técnicos no notebook, conectando métricas a decisões de negócio.  
+- Finalizei o `README.md` da Semana 2, documentando objetivos, escopo, análises e próximos passos da jornada.  
+- Organizei o repositório para publicação, garantindo clareza, padronização e qualidade de portfólio.  
+
+**Aprendizados do dia:**  
+- Integração entre SQL e Python para análise de dados.  
+- Importância da documentação analítica para comunicação de resultados.  
+- Construção de notebooks claros, objetivos e orientados a perguntas de negócio.  
+- Organização de projetos de dados com foco em portfólio profissional.  
+
+---
+
+## 📈 Reflexões da Semana – Semana 2
+
+A Semana 2 foi fundamental para consolidar os fundamentos de **SQL aplicado à Análise de Dados**, indo além da sintaxe e focando na resolução de problemas reais de negócio.
+
+Ao longo da semana, foi possível evoluir de consultas exploratórias para análises mais estruturadas, utilizando JOINs, funções agregadas e análises temporais. O mini-projeto permitiu enxergar o SQL como uma ferramenta estratégica para geração de insights, e não apenas como um mecanismo de consulta.
+
+A integração com Python no notebook reforçou a importância da visualização e da comunicação clara dos resultados, habilidades essenciais para analistas de dados.
+
+---
+
+## ✅ Encerramento da Semana 2
+
+A Semana 2 foi concluída com sucesso, resultando em um **projeto completo, documentado e publicável**, composto por:
+
+- Queries SQL organizadas e comentadas  
+- Notebook analítico com visualizações e conclusões  
+- README detalhado e alinhado ao plano de estudos  
+- Registro diário estruturado da evolução do aprendizado  
+
+Este projeto representa um marco importante na jornada de estudos, estabelecendo uma base sólida em SQL para análises futuras.
+
+Na próxima etapa, a jornada avança para a **Semana 3 – Python (Exploração de Dados)**, com foco em limpeza, análise exploratória e visualização utilizando o dataset Titanic.
