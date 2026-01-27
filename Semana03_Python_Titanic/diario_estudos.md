@@ -39,4 +39,21 @@ As hipóteses são formuladas com base em conhecimento prévio sobre o evento e 
 
 ---
 
-> Este diário será atualizado diariamente ao longo da Semana 3, registrando a evolução técnica, analítica e os principais aprendizados obtidos durante a exploração do dataset Titanic.
+**27/01/2026**
+
+* Iniciei o segundo dia da Semana 3 dando continuidade à Análise Exploratória de Dados (EDA) no dataset do Titanic.
+* Realizei a análise detalhada de valores ausentes, identificando colunas com dados faltantes e avaliando sua relevância para a análise.
+* Efetuei o tratamento de valores nulos:
+  * Preenchi a variável `Age` com a mediana, preservando a distribuição da idade.
+  * Preenchi a variável `Embarked` com a moda, por se tratar de uma variável categórica.
+* Mantive a variável `Cabin` sem tratamento neste estágio devido ao elevado volume de valores ausentes.
+* Criei a variável **`FamilySize`**, representando o tamanho da família a bordo, a partir da soma de `SibSp` e `Parch`, adicionando 1 para incluir o próprio passageiro.
+* Analisei estatísticas descritivas das variáveis numéricas após o tratamento dos dados.
+* Iniciei a investigação da relação entre tamanho da família e sobrevivência, preparando o terreno para análises visuais e comparativas nos próximos dias.
+
+**Aprendizados do dia:**
+
+* Importância do tratamento adequado de valores ausentes antes de análises mais profundas.
+* Entendimento do impacto de decisões de imputação sobre a qualidade da análise.
+* Criação de variáveis derivadas como forma de enriquecer a análise e extrair novos insights.
+* Preparação consciente da base de dados para análises exploratórias mais robustas.
