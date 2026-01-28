@@ -57,3 +57,23 @@ As hipóteses são formuladas com base em conhecimento prévio sobre o evento e 
 * Entendimento do impacto de decisões de imputação sobre a qualidade da análise.
 * Criação de variáveis derivadas como forma de enriquecer a análise e extrair novos insights.
 * Preparação consciente da base de dados para análises exploratórias mais robustas.
+
+---
+
+**27/01/2026**
+
+* Dei continuidade à Análise Exploratória de Dados (EDA) com foco na validação das hipóteses levantadas no início do projeto.
+* Analisei a relação entre sobrevivência e sexo dos passageiros, identificando uma diferença expressiva nas taxas de sobrevivência entre homens e mulheres.
+* Avaliei a influência da classe social (`Pclass`) na sobrevivência, observando um gradiente claro de maior sobrevivência nas classes mais altas.
+* Investiguei a variável idade (`Age`), comparando distribuições entre sobreviventes e não sobreviventes, concluindo que a idade isoladamente não foi um fator determinante, exceto possivelmente para faixas etárias mais baixas.
+* Analisei a relação entre a tarifa paga (`Fare`) e a sobrevivência, identificando que passageiros que pagaram tarifas mais altas apresentaram maior probabilidade de sobreviver.
+* Avaliei o impacto do tamanho da família (`FamilySize`) na sobrevivência, observando que famílias pequenas (2 a 4 pessoas) apresentaram as maiores taxas de sobrevivência, enquanto passageiros sozinhos ou em famílias grandes tiveram menor probabilidade.
+* Documentei todas as análises no notebook, combinando estatísticas descritivas, visualizações e interpretações analíticas claras.
+
+**Aprendizados do dia:**
+
+* Importância da análise visual para validação de hipóteses em dados reais.
+* Diferença entre métricas de proporção e volume absoluto na interpretação de resultados.
+* Identificação de padrões não lineares em variáveis engenheiradas.
+* Construção de análises orientadas a perguntas, evitando conclusões precipitadas.
+* Consolidação de boas práticas de EDA para projetos de portfólio.
