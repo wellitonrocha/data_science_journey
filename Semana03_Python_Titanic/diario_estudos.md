@@ -60,7 +60,7 @@ As hipóteses são formuladas com base em conhecimento prévio sobre o evento e 
 
 ---
 
-**27/01/2026**
+**28/01/2026**
 
 * Dei continuidade à Análise Exploratória de Dados (EDA) com foco na validação das hipóteses levantadas no início do projeto.
 * Analisei a relação entre sobrevivência e sexo dos passageiros, identificando uma diferença expressiva nas taxas de sobrevivência entre homens e mulheres.
