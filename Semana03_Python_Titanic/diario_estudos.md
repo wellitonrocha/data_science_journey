@@ -77,3 +77,25 @@ As hipóteses são formuladas com base em conhecimento prévio sobre o evento e 
 * Identificação de padrões não lineares em variáveis engenheiradas.
 * Construção de análises orientadas a perguntas, evitando conclusões precipitadas.
 * Consolidação de boas práticas de EDA para projetos de portfólio.
+
+---
+
+**29/01/2026**
+
+* Dei continuidade à Análise Exploratória de Dados (EDA) com foco em análises combinadas e multivariadas, aprofundando a validação das hipóteses iniciais do projeto.
+* Analisei a interação entre classe social (Pclass) e sexo (Sex), identificando que o sexo feminino apresentou altas taxas de sobrevivência em todas as classes, enquanto a classe social atuou como fator amplificador das chances de sobrevivência.
+* Avaliei a relação entre faixa etária (AgeGroup) e sobrevivência, observando diferenças relevantes entre taxas percentuais e volumes absolutos, especialmente no grupo de jovens adultos.
+* Segmentei a variável tarifa (Fare) em faixas, analisando a sobrevivência por quartis e confirmando a influência da condição socioeconômica tanto em taxa quanto em volume absoluto de sobreviventes.
+* Realizei uma análise combinada entre tamanho da família (FamilySize) e classe social, identificando que famílias pequenas apresentaram maiores taxas de sobrevivência, principalmente nas classes mais altas, enquanto famílias grandes na 3ª classe tiveram desempenho crítico.
+* Consolidei todas as análises por meio de uma síntese estruturada das hipóteses, classificando-as como confirmadas, parcialmente confirmadas ou não confirmadas com base em evidências empíricas.
+* Finalizei o notebook com uma célula de fechamento analítico, conectando os insights obtidos e preparando o terreno para as próximas etapas do projeto.
+
+**Aprendizados do dia:**
+
+* Importância da análise multivariada para compreensão de fenômenos complexos.
+* Diferença entre fatores dominantes e fatores moderadores na interpretação dos dados.
+* Uso de visualizações combinadas (heatmaps e gráficos agrupados) para revelar padrões ocultos.
+* Consolidação da engenharia de variáveis como ferramenta essencial na EDA.
+* Evolução da análise exploratória para uma narrativa analítica coerente e orientada a hipóteses.
+
+---
