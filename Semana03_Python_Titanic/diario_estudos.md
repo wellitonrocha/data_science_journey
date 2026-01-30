@@ -99,3 +99,25 @@ As hipóteses são formuladas com base em conhecimento prévio sobre o evento e 
 * Evolução da análise exploratória para uma narrativa analítica coerente e orientada a hipóteses.
 
 ---
+
+**30/01/2026**
+
+* Concluí a Semana 3 do projeto com o encerramento completo da Análise Exploratória de Dados (EDA) do dataset Titanic.
+* Realizei análises combinadas entre múltiplas variáveis, aprofundando a compreensão da interação entre classe social, sexo, idade, tarifa e tamanho da família.
+* Executei o estudo de sobrevivência considerando simultaneamente classe e tamanho da família, identificando que o impacto do FamilySize varia de forma significativa conforme a classe social.
+* Consolidei todas as hipóteses iniciais no **Estudo 10 — Síntese das Hipóteses**, classificando-as como confirmadas, parcialmente confirmadas ou não confirmadas com base nas evidências observadas.
+* Produzi uma célula final de fechamento analítico no notebook, conectando os insights individuais em uma visão integrada do problema.
+* Encerrei o notebook `titanic_analysis.ipynb`, garantindo organização, clareza narrativa e alinhamento com boas práticas de projetos de portfólio.
+* Criei e estruturei o `README.md` do projeto, descrevendo objetivo, etapas realizadas, principais análises e conclusões.
+* Incluí visualizações relevantes no README, organizando-as em uma pasta dedicada (`imagens`) e ajustando corretamente os caminhos relativos para exibição no GitHub.
+* Preparei o repositório para versionamento final, garantindo consistência entre notebook, diário de estudos e documentação do projeto.
+
+**Aprendizados do dia:**
+
+* Importância da análise multivariada para evitar interpretações simplistas.
+* Consolidação de hipóteses como etapa essencial de projetos analíticos.
+* Integração entre análise técnica e documentação clara para projetos de portfólio.
+* Uso estratégico de visualizações no README para comunicação com recrutadores.
+* Maturidade no encerramento de projetos, garantindo entrega profissional e bem estruturada.
+
+---
