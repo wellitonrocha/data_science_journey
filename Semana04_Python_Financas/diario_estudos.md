@@ -20,3 +20,21 @@ Aplicar Python na análise de dados financeiros, utilizando séries temporais pa
 
 ### Observações
 - Dataset consistente e pronto para análises temporais
+
+---
+
+## 🟢 Terça-feira — 03/02/2026
+### Atividades realizadas
+- Ordenação temporal explícita da série
+- Criação da variação absoluta do preço
+- Cálculo do retorno diário percentual
+- Análise estatística inicial das métricas financeiras
+
+### Aprendizados
+- Diferença entre variação absoluta e retorno percentual
+- Importância dessas métricas para análise de risco e volatilidade
+
+### Observações
+- Métricas financeiras criadas com sucesso e prontas para análises temporais
+
+---
