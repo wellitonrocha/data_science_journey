@@ -38,3 +38,19 @@ Aplicar Python na análise de dados financeiros, utilizando séries temporais pa
 - Métricas financeiras criadas com sucesso e prontas para análises temporais
 
 ---
+
+## 🟢 Quarta-feira — 04/02/2026
+### Atividades realizadas
+- Análise temporal do preço de fechamento
+- Criação de médias móveis (7, 21 e 50 períodos)
+- Comparação entre preço e médias móveis
+- Análise do volume negociado
+
+### Aprendizados
+- Uso de médias móveis para suavização de séries temporais
+- Identificação visual de tendências de mercado
+
+### Observações
+- Médias móveis facilitam a leitura da direção predominante do ativo
+
+---
