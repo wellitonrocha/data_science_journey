@@ -54,3 +54,15 @@ Aplicar Python na análise de dados financeiros, utilizando séries temporais pa
 - Médias móveis facilitam a leitura da direção predominante do ativo
 
 ---
+
+### Quinta-feira — 05/02/2026
+#### Atividades realizadas
+- Cálculo e análise dos retornos diários
+- Análise estatística dos retornos
+- Estudo da volatilidade móvel do ativo
+
+#### Aprendizados
+- Relação entre retorno e risco
+- Importância da volatilidade na análise financeira
+
+---
