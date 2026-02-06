@@ -66,3 +66,17 @@ Aplicar Python na análise de dados financeiros, utilizando séries temporais pa
 - Importância da volatilidade na análise financeira
 
 ---
+
+### Sexta-feira — 06/02/2026
+#### Atividades realizadas
+- Análise interpretativa dos gráficos financeiros da Apple (AAPL), com foco em tendência, retorno e risco
+- Reescrita das conclusões finais do notebook com base nos gráficos analisados
+- Criação do README.md do projeto, documentando objetivos, dataset, etapas da análise e principais insights
+- Revisão final da estrutura do notebook e da documentação do projeto
+
+#### Aprendizados
+- Como transformar visualizações financeiras em análises interpretativas
+- Importância de documentar projetos de forma clara e profissional
+- Consolidação de conceitos de tendência, retorno e volatilidade aplicados a um ativo real
+
+---
