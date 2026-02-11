@@ -53,3 +53,24 @@ Aplicar conceitos de **estatística descritiva e análise exploratória** em dad
 * A leitura integrada dos dados reduz interpretações superficiais e aumenta a robustez analítica.
 
 ---
+
+**11/02/2026**
+
+* Dei continuidade à **Semana 5 – Estatística Aplicada ao ENEM**, avançando da análise univariada para análise comparativa segmentada.
+* Realizei a análise da distribuição da variável `TP_SEXO`, identificando maior participação feminina (59,6%) em relação à masculina (40,4%).
+* Calculei médias das quatro áreas por sexo, observando desempenho superior masculino em todas as provas, com maior diferença em Matemática.
+* Calculei as medianas por sexo para validar se as diferenças observadas nas médias refletiam o comportamento central da distribuição.
+* Identifiquei consistência entre média e mediana, indicando que as diferenças não são causadas apenas por outliers.
+* Analisei o desvio padrão por sexo, verificando maior variabilidade nas notas masculinas em todas as áreas.
+* Construi boxplots comparativos por sexo, enriquecendo a visualização com marcação explícita de mínimo, quartis, mediana e máximo.
+* Realizei interpretação integrada entre estatística descritiva e visualizações gráficas.
+
+**Aprendizados do dia:**
+
+* A estatística segmentada permite identificar padrões estruturais entre grupos.
+* Diferenças entre média e mediana ajudam a interpretar assimetria.
+* O desvio padrão é essencial para compreender variabilidade entre populações.
+* Visualizações enriquecidas com quartis tornam a análise mais didática e robusta.
+* A análise comparativa é etapa fundamental antes de aplicar testes estatísticos de hipótese.
+
+---
