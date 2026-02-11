@@ -32,3 +32,24 @@ Aplicar conceitos de **estatística descritiva e análise exploratória** em dad
 * Validação da necessidade de separar diagnóstico dos dados e etapas de tratamento para evitar viés analítico.
 
 ---
+
+**10/02/2026**
+
+* Dei continuidade à **Semana 5 – Estatística Aplicada ao ENEM**, avançando para a análise exploratória das distribuições.
+* Realizei a comparação entre **média e mediana** das quatro áreas do conhecimento (Matemática, Linguagens, Ciências da Natureza e Ciências Humanas) para identificação de possíveis assimetrias.
+* Identifiquei diferenças sutis entre média e mediana, sugerindo comportamentos distintos de distribuição entre as provas.
+* Construí histogramas para visualização da distribuição das notas e análise da concentração de candidatos por faixa de pontuação.
+* Observei que as distribuições apresentam formato aproximadamente normal, com leves assimetrias em algumas áreas.
+* Construi boxplots para análise de dispersão, amplitude interquartil e presença de outliers.
+* Identifiquei maior variabilidade nas notas de Matemática, enquanto Linguagens e Humanas apresentam comportamento mais concentrado.
+* Interpretei os gráficos de forma integrada (média, mediana, histograma e boxplot), consolidando a leitura estatística das distribuições.
+
+**Aprendizados do dia:**
+
+* Diferenças entre média e mediana são indicadores práticos de assimetria da distribuição.
+* Histogramas permitem compreender concentração e formato geral da distribuição.
+* Boxplots facilitam a visualização de dispersão e identificação de valores extremos.
+* A análise gráfica deve sempre complementar a estatística descritiva numérica.
+* A leitura integrada dos dados reduz interpretações superficiais e aumenta a robustez analítica.
+
+---
