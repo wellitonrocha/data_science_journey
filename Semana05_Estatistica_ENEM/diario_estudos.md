@@ -74,3 +74,21 @@ Aplicar conceitos de **estatística descritiva e análise exploratória** em dad
 * A análise comparativa é etapa fundamental antes de aplicar testes estatísticos de hipótese.
 
 ---
+
+**12/02/2026**
+
+* Avancei na análise comparativa da Semana 5, investigando o desempenho por tipo de escola (`TP_ESCOLA`).
+* Identifiquei que 71% dos registros estavam classificados como “Não respondeu”, optando metodologicamente por excluir esses casos da análise.
+* Realizei a comparação entre escolas públicas e privadas, mantendo apenas os grupos válidos.
+* Calculei médias, medianas e desvios padrão por tipo de escola.
+* Observei diferenças expressivas de desempenho em todas as áreas, com destaque para Matemática.
+* Verifiquei consistência entre média e mediana, indicando que a desigualdade observada não é resultado de outliers.
+* Analisei a variabilidade entre grupos, identificando maior dispersão na escola privada em algumas áreas.
+* Concluí que a diferença associada ao tipo de escola é significativamente maior do que a diferença observada por sexo.
+
+**Aprendizados do dia:**
+
+* A escolha metodológica de filtrar categorias impacta diretamente a validade da análise.
+* Variáveis institucionais podem explicar diferenças estruturais de desempenho.
+* Comparações entre grupos exigem análise conjunta de média, mediana e dispersão.
+* A estatística descritiva já permite identificar padrões claros de desigualdade educacional.
