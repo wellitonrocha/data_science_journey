@@ -92,3 +92,55 @@ Aplicar conceitos de **estatística descritiva e análise exploratória** em dad
 * Variáveis institucionais podem explicar diferenças estruturais de desempenho.
 * Comparações entre grupos exigem análise conjunta de média, mediana e dispersão.
 * A estatística descritiva já permite identificar padrões claros de desigualdade educacional.
+
+---
+
+**13/02/2026**
+
+* Concluí a Semana 5 aplicando estatística inferencial ao dataset do ENEM.
+* Realizei teste t para amostras independentes (Welch) comparando escolas públicas e privadas.
+* Obtive p-values inferiores a 0.05 em todas as áreas, rejeitando a hipótese nula.
+* Calculei o tamanho do efeito (Cohen’s d), identificando efeitos grandes em todas as provas.
+* Consolidei os principais achados do projeto em uma conclusão estruturada.
+* Finalizei o notebook com análise descritiva, comparativa e inferencial.
+
+**Aprendizados do dia:**
+
+* Diferença estatística não implica necessariamente grande impacto prático — por isso o cálculo do tamanho do efeito é essencial.
+* Amostras grandes aumentam poder estatístico.
+* A estatística inferencial valida conclusões observadas na análise descritiva.
+* Projetos completos exigem descrição, comparação e inferência.
+
+---
+
+## 📌 Conclusão Final – Semana 05
+
+A Semana 5 consolidou a aplicação prática de Estatística Aplicada em um contexto real de dados educacionais.
+
+O projeto evoluiu de análise descritiva inicial para comparações estruturais e, por fim, validação inferencial por meio de teste de hipótese e cálculo de tamanho do efeito.
+
+A progressão metodológica seguiu uma sequência lógica:
+
+1. Compreensão e diagnóstico do dataset.
+2. Estatística descritiva das distribuições.
+3. Comparações segmentadas por sexo.
+4. Comparações estruturais por tipo de escola.
+5. Validação estatística das diferenças observadas.
+
+Os resultados indicaram:
+
+- Diferenças moderadas por sexo.
+- Diferenças substanciais por tipo de escola.
+- Evidência estatística robusta de desigualdade de desempenho associada ao contexto educacional.
+- Efeitos de grande magnitude nas quatro áreas do conhecimento.
+
+Além dos achados técnicos, a semana reforçou aspectos fundamentais da prática em Data Science:
+
+- Importância da organização metodológica.
+- Necessidade de validar hipóteses com estatística inferencial.
+- Interpretação conjunta de média, mediana, dispersão e tamanho do efeito.
+- Separação clara entre descrição, comparação e inferência.
+
+O projeto foi concluído com estrutura analítica completa, adequada para portfólio técnico e demonstração de aplicação prática de estatística em bases públicas de larga escala.
+
+---
